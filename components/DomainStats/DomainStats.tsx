@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { list_total, list_used } from '../../list';
+import { list_total, list_used } from '../list';
 
 export const DomainStats: FC = () => {
     const usage_frac = list_used.length / list_total;

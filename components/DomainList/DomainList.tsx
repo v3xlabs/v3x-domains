@@ -1,4 +1,4 @@
-import { list_unknown, list_used } from '../../list';
+import { list_unknown, list_used } from '../list';
 
 export const DomainList = () => {
     return (
