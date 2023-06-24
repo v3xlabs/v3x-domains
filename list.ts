@@ -10,6 +10,7 @@ export const list: ([string, string, boolean] | [string, string])[] = [
     ['Discord', 'v3x.chat', false],
     ['Email', 'v3x.email', false],
     ['Contact', 'v3x.contact', false],
+    ['Unknown', 'v3x.careers'],
     ['Unknown', 'v3x.marketing'],
     ['Unknown', 'v3x.management'],
     ['Unknown', 'v3x.life'],
