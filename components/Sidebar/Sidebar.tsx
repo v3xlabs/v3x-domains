@@ -24,7 +24,7 @@ export const Sidebar: FC = () => {
                                 href={href}
                                 className={[
                                     'hover:text-blue-500 hover:underline',
-                                    label == '.health'
+                                    label == '.domains'
                                         ? 'text-blue-500'
                                         : 'text-notblack',
                                 ].join(' ')}

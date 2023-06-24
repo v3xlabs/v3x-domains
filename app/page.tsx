@@ -1,5 +1,4 @@
 import { ClusterStatistics } from '../components/ClusterStatistics/ClusterStatistics';
-import { ContainerGrid } from '../components/ContainerGrid/ContainerGrid';
 
 export default function App() {
     return (
@@ -13,26 +12,18 @@ export default function App() {
                 }}
             >
                 <div className="w-full col-span-12 flex items-center justify-center border border-notblack p-4">
-                    <div>v3x.health</div>
+                    <div>v3x.domains</div>
                 </div>
 
                 <div className="whitespace-pre-wrap col-span-12 py-10 px-6">
-                    &nbsp; &gt;&gt;&gt;&gt; If you are reading this there is a
-                    high chance our datacenter is on fire right now. We highly
-                    advice you to check back later.
+                    &nbsp; &gt;&gt;&gt;&gt; So we own a lot of domains, here is
+                    a list... Treat this the way you would treat the lookup
+                    table in the back of a book; by scrolling through it
+                    whenever you get bored.
                 </div>
 
                 <div className="col-span-12">
                     <ClusterStatistics />
-                </div>
-                <div className="col-span-6">
-                    <ClusterStatistics />
-                </div>
-                <div className="col-span-6">
-                    <ClusterStatistics />
-                </div>
-                <div className="col-span-12">
-                    <ContainerGrid />
                 </div>
             </div>
         </div>

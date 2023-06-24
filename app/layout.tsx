@@ -7,8 +7,8 @@ import { Footer } from '../components/Footer/Footer';
 import { Sidebar } from '../components/Sidebar/Sidebar';
 
 export const metadata = {
-    title: 'Health & Status',
-    description: 'Analytics, Metrics & Status for the V3X Infrastructure.',
+    title: 'V3X Domains',
+    description: 'All of the v3x-related domains.',
 };
 export default function RootLayout({
     children,
@@ -22,14 +22,17 @@ export default function RootLayout({
                 <meta name="description" content={metadata.description} />
                 <meta property="og:title" content={metadata.title} />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://v3x.health" />
-                <meta property="og:image" content="/v3x-health-opengraph.png" />
+                <meta property="og:url" content="https://v3x.domains" />
+                <meta
+                    property="og:image"
+                    content="/v3x-domains-opengraph.png"
+                />
                 <meta
                     property="og:description"
                     content={metadata.description}
                 />
                 <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://v3x.health" />
+                <meta property="twitter:url" content="https://v3x.domains" />
                 <meta property="twitter:title" content={metadata.title} />
                 <meta
                     property="twitter:description"
@@ -37,7 +40,7 @@ export default function RootLayout({
                 />
                 <meta
                     property="twitter:image"
-                    content="/v3x-health-opengraph.png"
+                    content="/v3x-domains-opengraph.png"
                 />
                 <meta name="theme-color" content="#ffffff" />
                 <meta
