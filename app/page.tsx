@@ -1,6 +1,5 @@
 import { DomainList } from '../components/DomainList/DomainList';
-import { Panel } from '../components/Panel/Panel';
-import { ProgressBar } from '../components/ProgressBar/ProgressBar';
+import { DomainStats } from '../components/DomainStats/DomainStats';
 
 export default function App() {
     return (
@@ -25,18 +24,10 @@ export default function App() {
                 </div>
 
                 <div className="col-span-12">
-                    <Panel title="Domain Statistics">
-                        <div className="flex flex-col gap-1">
-                            <ProgressBar
-                                progress={3}
-                                total={20}
-                                title="Usage"
-                            />
-                        </div>
-                    </Panel>
+                    <DomainStats />
                 </div>
 
-                <div className="col-span-12">
+                <div className="col-span-12 mt-8">
                     <DomainList />
                 </div>
             </div>
