@@ -8,7 +8,7 @@ export const list: ([string, string, boolean] | [string, string])[] = [
     ['Page Components', 'v3x.style', false],
     ['Branding & Mediakit', 'v3x.design', false],
     ['Health & Status', 'v3x.health'],
-    ['Discord', 'v3x.chat', false],
+    ['Discord', 'v3x.chat'],
     ['Email', 'v3x.email', false],
     ['Contact', 'v3x.contact', false],
     ['Unknown', 'v3x.careers'],
