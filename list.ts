@@ -1,6 +1,7 @@
 export const list: ([string, string, boolean] | [string, string])[] = [
     ['Domains', 'v3x.domains'],
     ['Company', 'v3x.company'],
+    ['Team & Contributors', 'v3x.team'],
     ['Articles & Writing', 'v3x.blog', false],
     ['Community', 'v3x.community', false],
     ['Foundation', 'v3x.foundation', false],
@@ -24,7 +25,6 @@ export const list: ([string, string, boolean] | [string, string])[] = [
     ['Unknown', 'v3x.world'],
     ['Unknown', 'v3x.tools'],
     ['Unknown', 'v3x.today'],
-    ['Unknown', 'v3x.team'],
     ['Unknown', 'v3x.systems'],
     ['Unknown', 'v3x.solutions'],
     ['Unknown', 'v3x.holdings'],
