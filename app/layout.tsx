@@ -20,6 +20,8 @@ export default function RootLayout({
             <head>
                 <title>{metadata.title}</title>
                 <meta name="description" content={metadata.description} />
+                <link rel="icon" href="/favicon.png" />
+                <link rel="apple-touch-icon" href="/favicon.png" />
                 <meta property="og:title" content={metadata.title} />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://v3x.domains" />
