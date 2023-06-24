@@ -4,8 +4,13 @@ export const DomainList = () => {
     return (
         <div className="w-full">
             <ul className="w-full">
-                {list_used.map(([name, domain]) => (
-                    <li className="w-full group hover:font-bold" key={domain}>
+                {list_used.map(([name, domain, active]) => (
+                    <li
+                        className={`w-full group hover:font-bold ${
+                            active === false ? 'line-through' : ''
+                        }`}
+                        key={domain}
+                    >
                         <a href={`https://${domain}`} className="flex w-full">
                             <span className="">{name}</span>
                             <span
